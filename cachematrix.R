@@ -6,7 +6,7 @@
 ## This function set and retrieve the original matrix and inverse of it.
 ## Arguments: the raw matrix
 ## return: a list of internal functions
-makeCacheMatrix<-function(m){
+makeCacheMatrix<-function(m=matrix()){
     inverse<-NULL  ## set inversed matrix null initially. 
     set<-function(y)
     {
